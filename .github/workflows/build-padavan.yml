@@ -42,7 +42,7 @@ jobs:
         rm -rf /opt/hostedtoolcache/go/1.14.15
         rm -rf /opt/hostedtoolcache/go/1.14.14
         rm -rf /opt/hostedtoolcache/go/1.14.13
-        mv 1.16rc1 1.14.15
+        mv 1.15.8 1.14.15
     - name: Build Firmware
       env:
         TNAME: XY-C1
